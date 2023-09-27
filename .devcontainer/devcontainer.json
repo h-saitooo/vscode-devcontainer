@@ -13,11 +13,6 @@
     "vscode": {
       "settings": {},
       "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "octref.vetur",
-        "nuxtjs.nuxt",
-        "bradlc.vscode-tailwindcss",
         "golang.go",
         "ms-vscode.go",
         "stamblerre.gocode",
