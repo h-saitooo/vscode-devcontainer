@@ -1,15 +1,12 @@
 {
-	"name": "Go Development Container",
-	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
-	"features": {
-		"ghcr.io/devcontainers/features/go:1": {
-			"version": "1.21"
-		}
-	},
+  "name": "Go Development Container",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
-	"forwardPorts": [],
+  "forwardPorts": [5432, 8080],
 
-	"customizations": {
+  "customizations": {
     "vscode": {
       "settings": {},
       "extensions": [
@@ -21,7 +18,5 @@
         "EditorConfig.EditorConfig"
       ]
     }
-  },
-
-	"remoteUser": "root"
+  }
 }
