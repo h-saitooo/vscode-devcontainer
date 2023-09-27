@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "octref.vetur",
+    "nuxtjs.nuxt",
+    "bradlc.vscode-tailwindcss",
+    "golang.go",
+    "ms-vscode.go",
+    "stamblerre.gocode",
+    "golang.golint",
+    "ms-vscode.GoTestExplorer",
+    "EditorConfig.EditorConfig",
+
+    "GitHub.copilot",
+    "GitHub.copilot-chat"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+	"name": "Go Development Container",
+	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/go:1": {
+			"version": "1.21"
+		}
+	},
+
+	"forwardPorts": [],
+
+	"customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "octref.vetur",
+        "nuxtjs.nuxt",
+        "bradlc.vscode-tailwindcss",
+        "golang.go",
+        "ms-vscode.go",
+        "stamblerre.gocode",
+        "golang.golint",
+        "ms-vscode.GoTestExplorer",
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  },
+
+	"remoteUser": "root"
+}
