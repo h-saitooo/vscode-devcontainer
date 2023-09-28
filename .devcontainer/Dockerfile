@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/devcontainers/go:1-${templateOption:imageVariant}
+ARG imageVariant="buster"
+FROM mcr.microsoft.com/devcontainers/go:1-${imageVariant}
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
@@ -10,4 +11,4 @@ FROM mcr.microsoft.com/devcontainers/go:1-${templateOption:imageVariant}
 # USER root
 
 # [Optional] Uncomment this line to install global node packages.
-# RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
+# RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>"
